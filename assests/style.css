@@ -1,0 +1,45 @@
+h1{
+    color: blue;
+}
+.colored-girl{
+    width: 100px;
+    height: 150px;
+}
+.lorem-class{
+    font-size: large;
+    background-image: url(/assests/Images/shockedtiger.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    padding: 10px;
+}
+table{
+border-collapse: collapse;
+width: 70%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding:5px;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+}
+caption{
+    margin-bottom: 10px;
+    color: rgb(200, 129, 43);
+    background-color: bisque;
+}
+tr:hover{
+    background-color: rgb(233, 223, 210);
+    color: red;
+}
+ul{
+    list-style-type:square;
+}
+ol{
+    list-style-type:lower-alpha;
+}
